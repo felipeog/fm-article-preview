@@ -21,9 +21,7 @@
   <body>
     <div class="wrapper">
       <main class="article">
-        <div class="article__image-wrapper">
-          <img src="./img/drawers.jpg" alt="Drawers" class="article__image" />
-        </div>
+        <img src="./img/drawers.jpg" alt="Drawers" class="article__image" />
 
         <article class="article__content">
           <h1 class="article__title">
@@ -49,10 +47,16 @@
               <p class="author__date">28 Jun 2020</p>
             </div>
 
-            <div class="article__share-wrapper">
-              <img src="./img/icon-share.svg" alt="" class="article__share" />
+            <div class="share">
+              <div class="share__button">
+                <img
+                  src="./img/icon-share.svg"
+                  alt="Share button"
+                  class="share__button-image"
+                />
+              </div>
 
-              <div class="share">
+              <div class="share__tooltip">
                 <p class="share__text">Share</p>
 
                 <ul class="share__social-list">
@@ -63,14 +67,14 @@
                       class="share__icon"
                     />
                   </li>
-                  <li>
+                  <li class="share__social-item">
                     <img
                       src="./img/icon-twitter.svg"
                       alt="Twitter"
                       class="share__icon"
                     />
                   </li>
-                  <li>
+                  <li class="share__social-item">
                     <img
                       src="./img/icon-pinterest.svg"
                       alt="Pinterest"
