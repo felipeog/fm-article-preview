@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,17 +16,72 @@
     />
     <title>Frontend Mentor | Article preview component</title>
   </head>
+
   <body>
-    <!-- Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+    <div class="wrapper">
+      <main class="article">
+        <div class="article__image-wrapper">
+          <img src="./img/drawers.jpg" alt="Drawers" class="article__image" />
+        </div>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+        <article class="article__content">
+          <h1 class="article__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
 
-  Michelle Appleton
-  28 Jun 2020
+          <p class="article__text">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
 
-  Share -->
+          <div class="author">
+            <img
+              src="./img/avatar-michelle.jpg"
+              alt="Michelle Appleton"
+              class="author__avatar"
+            />
+
+            <div class="author__data">
+              <p class="author__name">Michelle Appleton</p>
+              <p class="author__date">28 Jun 2020</p>
+            </div>
+
+            <div class="article__share-wrapper">
+              <img src="./img/icon-share.svg" alt="" class="article__share" />
+
+              <div class="share">
+                <p class="share__text">Share</p>
+
+                <ul class="share__social-list">
+                  <li class="share__social-item">
+                    <img
+                      src="./img/icon-facebook.svg"
+                      alt="Facebook"
+                      class="share__icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./img/icon-twitter.svg"
+                      alt="Twitter"
+                      class="share__icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./img/icon-pinterest.svg"
+                      alt="Pinterest"
+                      class="share__icon"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
   </body>
 </html>
