@@ -1,0 +1,23 @@
+{
+  "name": "fm-article-preview",
+  "version": "1.0.0",
+  "description": "https://fm-article-preview.netlify.app/",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeog/fm-article-preview.git"
+  },
+  "author": "Felipe OG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeog/fm-article-preview/issues"
+  },
+  "homepage": "https://github.com/felipeog/fm-article-preview#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
