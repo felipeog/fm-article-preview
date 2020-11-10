@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel ./src/pug/index.pug",
-    "build": "parcel build ./src/pug/index.pug"
+    "build": "parcel build ./src/pug/index.pug",
+    "prettier": "prettier --write \"./**/*.{pug,scss,js,json}\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/felipeog/fm-article-preview#readme",
   "devDependencies": {
     "parcel": "^1.12.4",
+    "prettier": "^2.1.2",
     "pug": "^3.0.0",
     "sass": "^1.29.0"
   }
