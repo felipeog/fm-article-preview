@@ -1,4 +1,6 @@
 *-lock.json
-build/
+dist/
 node_modules/
 .git/
+.cache
+
