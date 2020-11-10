@@ -4,8 +4,8 @@
   "description": "https://fm-article-preview.netlify.app/",
   "main": "index.html",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "parcel ./src/pug/index.pug",
+    "build": "parcel build ./src/pug/index.pug"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/felipeog/fm-article-preview#readme",
   "devDependencies": {
     "parcel": "^1.12.4",
+    "pug": "^3.0.0",
     "sass": "^1.29.0"
   }
 }
