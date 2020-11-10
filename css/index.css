@@ -60,6 +60,7 @@ html {
 .article__title {
   color: var(--very-dark-grayish-blue);
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .author {
