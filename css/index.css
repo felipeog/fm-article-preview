@@ -104,6 +104,7 @@ html {
   background: var(--light-grayish-blue);
   border-radius: 50%;
   cursor: pointer;
+  transition: 100ms;
 }
 
 .share__button-image {
@@ -163,8 +164,23 @@ html {
 
 .share--active .share__tooltip {
   display: flex;
+  animation-name: tooltip-enter;
+  animation-duration: 600ms;
 }
 
 .share--active .share__button-image {
   filter: brightness(2);
+}
+
+/* animations */
+@keyframes tooltip-enter {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) rotateY(-90deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) rotateY(0);
+  }
 }
